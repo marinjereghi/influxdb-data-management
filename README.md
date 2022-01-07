@@ -17,3 +17,10 @@ influx_org = "my-org"
 influx_bucket = 'my-bucket'
 influx_token = "my-token"
 ```
+
+## verify written data
+
+```flux
+from(bucket: "veronacard")
+    |> range(start: 2020-12-02T00:00:00Z)
+```
