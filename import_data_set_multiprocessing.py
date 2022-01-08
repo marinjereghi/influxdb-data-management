@@ -70,7 +70,7 @@ def parse_row(row: OrderedDict):
     return Point(row['poi']) \
         .tag("activation_date", row['activation_date']) \
         .tag("profile", row['profile']) \
-        .field(row['vcard'], row['device']) \
+        .field(row['device'], row['vcard']) \
         .time(row['entry_datetime']) \
         .to_line_protocol()
 
