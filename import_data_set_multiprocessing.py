@@ -119,6 +119,12 @@ if __name__ == "__main__":
     # url = "https://s3.amazonaws.com/nyc-tlc/trip+data/fhv_tripdata_2019-01.csv"
     # url = "file:///Users/bednar/Developer/influxdata/influxdb-client-python/examples/fhv_tripdata_2019-01.csv"
     url = "https://www.dropbox.com/s/utu7l307ih4p6zd/_2020_dati.csv?dl=1"
+    # url = "https://www.dropbox.com/s/h07dz7pky3av4ai/2019_dati.csv?dl=1"
+    # url = "https://www.dropbox.com/s/wtsrrinj3blkwqo/1_2018_dati.csv?dl=1"
+    # url = "https://www.dropbox.com/s/d5unzezt534jl4o/1_2017_dati.csv?dl=1"
+    # url = "https://www.dropbox.com/s/tggjljt7fi9vink/1_2016_dati.csv?dl=1"
+    # url = "https://www.dropbox.com/s/bubvi2wckj1eflw/1_2015_dati.csv?dl=1"
+    # url = "https://www.dropbox.com/s/i3s6d6ojnqoyr56/1_2014_dati.csv?dl=1"
 
     """
     Open URL and for stream data 
